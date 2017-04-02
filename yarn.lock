@@ -6,6 +6,10 @@
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@types/alexa-sdk/-/alexa-sdk-1.0.4.tgz#077d52c632962efd60b1fdeee34766ae68ab98df"
 
+"@types/node@^7.0.12":
+  version "7.0.12"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.12.tgz#ae5f67a19c15f752148004db07cbbb372e69efc9"
+
 agent-base@2:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/agent-base/-/agent-base-2.0.1.tgz#bd8f9e86a8eb221fffa07bd14befd55df142815e"

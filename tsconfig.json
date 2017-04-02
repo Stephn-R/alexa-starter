@@ -6,7 +6,7 @@
     "listFiles": false,
     "module": "commonjs",
     "moduleResolution": "node",
-    "noEmit": false,
+    "noEmit": true,
     "noEmitOnError": false,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
@@ -16,6 +16,10 @@
     "target": "es5",
     "typeRoots": [
       "node_modules/@types"
+    ],
+    "lib": [
+      "es5",
+      "es2015.promise"
     ]
   },
   "include": [
