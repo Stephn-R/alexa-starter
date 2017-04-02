@@ -5,7 +5,8 @@
     "**/.svn": true,
     "**/.hg": true,
     "**/.DS_Store": true,
-    "**/*.js": true,
+    "index.js": true,
+    "handles/**/*.js": true,
     ".serverless/**": true
   }
 }
