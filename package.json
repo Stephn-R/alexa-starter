@@ -1,0 +1,29 @@
+{
+  "name": "alexa-starter",
+  "version": "1.0.0",
+  "description": "a simple application for building apps for amazon alexa",
+  "main": "bin/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w",
+    "prepublish": "npm run build",
+    "publish": "serverless deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stephn-R/alexa-starter.git"
+  },
+  "author": "Stephen Rodriguez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stephn-R/alexa-starter/issues"
+  },
+  "homepage": "https://github.com/Stephn-R/alexa-starter#readme",
+  "dependencies": {
+    "@types/alexa-sdk": "^1.0.4",
+    "alexa-sdk": "^1.0.7",
+    "serverless": "^1.10.1",
+    "typescript": "^2.2.2"
+  }
+}
